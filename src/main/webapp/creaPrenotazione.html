@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inserisci Prenotazione</title>
+</head>
+<body>
+<h2>Inserisci i dati della prenotazione</h2>
+<form method="post" action="CreaPrenotazione.do">
+    Nome e Cognome <input type="text" size="50" name="NomeCognome" required />
+    <br><br>
+    Recapito Telefonico <input type="text" size="50" name="RecapitoTelefonico" required />
+    <br><br>
+    Numero di Persone <input type="number" size="50" name="numeroPersone" required min="1" />
+    <br><br>
+    <input type="submit" value="Prenota">
+</form>
+<br>
+<a href="./index.html">Torna alla home</a>
+</body>
+</html>
